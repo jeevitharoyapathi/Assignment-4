@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.apps.jeevitharoyapathi.activities.HomeActivity">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_action_name"
+        android:onClick="onProfileClick"
+        android:orderInCategory="100"
+        android:title="profile"
+        app:showAsAction="ifRoom" />
+</menu>

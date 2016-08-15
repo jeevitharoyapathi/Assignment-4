@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="text_color">#FAFAFA</color>
+
+    <color name="book_without_palette">#1C1D23</color>
+    <color name="text_without_palette">#ffeae1da</color>
+
+    <color name="colorprimarydark_transp">#3300838F</color>
+    <color name="colorprimary_transp">#3300BCD4</color>
+    <color name="coloraccent_transp">#3300BFA5</color>
+    <color name="colorbtndark_transp">#66004D40</color>
+
+    <color name="text_retweeted">#899AA7</color>
+    <color name="text_name">#292F33</color>
+    <color name="text_user_name">#292F33</color>
+    <color name="text_hash_tags">#0084B4</color>
+    <color name="text_embedded_user_name">#0084B4</color>
+    <color name="text_content">#292F33</color>
+    <color name="text_time">#899AA7</color>
+</resources>

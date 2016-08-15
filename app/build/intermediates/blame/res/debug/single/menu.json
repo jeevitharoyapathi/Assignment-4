@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-4/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-4/app/src/main/res/menu/login.xml"
+    },
+    {
+        "merged": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-3/app/build/intermediates/res/merged/debug/menu/menu_home.xml",
+        "source": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-3/app/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-4/app/build/intermediates/res/merged/debug/menu/menu_home.xml",
+        "source": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-4/app/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-3/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/Users/jeevitha.royapathi/dev/Codepath/Assignment-3/app/src/main/res/menu/login.xml"
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.codepath.apps.jeevitharoyapathi.activities.ProfileActivity">
+
+    <include
+        android:id="@+id/toolbar_Layout"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/toolbar_Layout" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/profile_tab"
+        style="@style/tabLayoutStyle"
+        android:layout_width="match_parent"
+        android:background="@color/colorprimary_transp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_layout"
+        app:tabGravity="fill"
+        app:tabMode="fixed" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/profile_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_tab"
+        android:background="@android:color/white">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

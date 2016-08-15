@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:clickable="true"
+    android:padding="3dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="12dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/profile_width"
+            android:layout_height="@dimen/profile_height"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/twitter_logo_mini" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/profile_image"
+            android:layout_marginLeft="@dimen/margin_content"
+            android:ellipsize="end"
+            android:text="@string/app_name"
+            android:textColor="@color/text_name"
+            android:textSize="@dimen/text_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/name"
+            android:layout_toEndOf="@+id/name"
+            android:layout_toRightOf="@+id/name"
+            android:ellipsize="end"
+            android:layout_marginLeft="2dp"
+            android:text="user name"
+            android:textColor="@color/text_time"
+            android:textSize="@dimen/text_time" />
+
+        <TextView
+            android:id="@+id/tweetTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/content"
+            android:layout_alignEnd="@+id/content"
+            android:layout_alignRight="@+id/content"
+            android:text="1 hour ago"
+            android:textColor="@color/text_time"
+            android:textSize="@dimen/text_time" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/name"
+            android:layout_below="@id/name"
+            android:text="sfsadfsadfsdafsadf"
+            android:textColor="@color/text_content"
+            android:textSize="@dimen/text_content" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
